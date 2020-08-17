@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463EBFA324EA97E300FE79CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFA224EA97E300FE79CC /* AppDelegate.swift */; };
+		463EBFA524EA97E300FE79CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFA424EA97E300FE79CC /* SceneDelegate.swift */; };
+		463EBFA724EA97E300FE79CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFA624EA97E300FE79CC /* ViewController.swift */; };
+		463EBFAA24EA97E300FE79CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463EBFA824EA97E300FE79CC /* Main.storyboard */; };
+		463EBFAC24EA97E600FE79CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463EBFAB24EA97E600FE79CC /* Assets.xcassets */; };
+		463EBFAF24EA97E600FE79CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463EBFAD24EA97E600FE79CC /* LaunchScreen.storyboard */; };
+		463EBFBA24EA97E600FE79CC /* Car_Sevice_Manager_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFB924EA97E600FE79CC /* Car_Sevice_Manager_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		463EBFB624EA97E600FE79CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 463EBF9724EA97E300FE79CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 463EBF9E24EA97E300FE79CC;
+			remoteInfo = "Car Sevice Manager App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		463EBF9F24EA97E300FE79CC /* Car Sevice Manager App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Sevice Manager App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463EBFA224EA97E300FE79CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		463EBFA424EA97E300FE79CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		463EBFA624EA97E300FE79CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		463EBFA924EA97E300FE79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		463EBFAB24EA97E600FE79CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		463EBFAE24EA97E600FE79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		463EBFB024EA97E600FE79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463EBFB524EA97E600FE79CC /* Car Sevice Manager AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car Sevice Manager AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463EBFB924EA97E600FE79CC /* Car_Sevice_Manager_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_Sevice_Manager_AppTests.swift; sourceTree = "<group>"; };
+		463EBFBB24EA97E600FE79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463EBF9C24EA97E300FE79CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463EBFB224EA97E600FE79CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463EBF9624EA97E300FE79CC = {
+			isa = PBXGroup;
+			children = (
+				463EBFA124EA97E300FE79CC /* Car Sevice Manager App */,
+				463EBFB824EA97E600FE79CC /* Car Sevice Manager AppTests */,
+				463EBFA024EA97E300FE79CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		463EBFA024EA97E300FE79CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463EBF9F24EA97E300FE79CC /* Car Sevice Manager App.app */,
+				463EBFB524EA97E600FE79CC /* Car Sevice Manager AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		463EBFA124EA97E300FE79CC /* Car Sevice Manager App */ = {
+			isa = PBXGroup;
+			children = (
+				463EBFA224EA97E300FE79CC /* AppDelegate.swift */,
+				463EBFA424EA97E300FE79CC /* SceneDelegate.swift */,
+				463EBFA624EA97E300FE79CC /* ViewController.swift */,
+				463EBFA824EA97E300FE79CC /* Main.storyboard */,
+				463EBFAB24EA97E600FE79CC /* Assets.xcassets */,
+				463EBFAD24EA97E600FE79CC /* LaunchScreen.storyboard */,
+				463EBFB024EA97E600FE79CC /* Info.plist */,
+			);
+			path = "Car Sevice Manager App";
+			sourceTree = "<group>";
+		};
+		463EBFB824EA97E600FE79CC /* Car Sevice Manager AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				463EBFB924EA97E600FE79CC /* Car_Sevice_Manager_AppTests.swift */,
+				463EBFBB24EA97E600FE79CC /* Info.plist */,
+			);
+			path = "Car Sevice Manager AppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		463EBF9E24EA97E300FE79CC /* Car Sevice Manager App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463EBFBE24EA97E600FE79CC /* Build configuration list for PBXNativeTarget "Car Sevice Manager App" */;
+			buildPhases = (
+				463EBF9B24EA97E300FE79CC /* Sources */,
+				463EBF9C24EA97E300FE79CC /* Frameworks */,
+				463EBF9D24EA97E300FE79CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car Sevice Manager App";
+			productName = "Car Sevice Manager App";
+			productReference = 463EBF9F24EA97E300FE79CC /* Car Sevice Manager App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		463EBFB424EA97E600FE79CC /* Car Sevice Manager AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463EBFC124EA97E600FE79CC /* Build configuration list for PBXNativeTarget "Car Sevice Manager AppTests" */;
+			buildPhases = (
+				463EBFB124EA97E600FE79CC /* Sources */,
+				463EBFB224EA97E600FE79CC /* Frameworks */,
+				463EBFB324EA97E600FE79CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				463EBFB724EA97E600FE79CC /* PBXTargetDependency */,
+			);
+			name = "Car Sevice Manager AppTests";
+			productName = "Car Sevice Manager AppTests";
+			productReference = 463EBFB524EA97E600FE79CC /* Car Sevice Manager AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463EBF9724EA97E300FE79CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Murat Baykor";
+				TargetAttributes = {
+					463EBF9E24EA97E300FE79CC = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					463EBFB424EA97E600FE79CC = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 463EBF9E24EA97E300FE79CC;
+					};
+				};
+			};
+			buildConfigurationList = 463EBF9A24EA97E300FE79CC /* Build configuration list for PBXProject "Car Sevice Manager App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463EBF9624EA97E300FE79CC;
+			productRefGroup = 463EBFA024EA97E300FE79CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				463EBF9E24EA97E300FE79CC /* Car Sevice Manager App */,
+				463EBFB424EA97E600FE79CC /* Car Sevice Manager AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463EBF9D24EA97E300FE79CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463EBFAF24EA97E600FE79CC /* LaunchScreen.storyboard in Resources */,
+				463EBFAC24EA97E600FE79CC /* Assets.xcassets in Resources */,
+				463EBFAA24EA97E300FE79CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463EBFB324EA97E600FE79CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463EBF9B24EA97E300FE79CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463EBFA724EA97E300FE79CC /* ViewController.swift in Sources */,
+				463EBFA324EA97E300FE79CC /* AppDelegate.swift in Sources */,
+				463EBFA524EA97E300FE79CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463EBFB124EA97E600FE79CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463EBFBA24EA97E600FE79CC /* Car_Sevice_Manager_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		463EBFB724EA97E600FE79CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 463EBF9E24EA97E300FE79CC /* Car Sevice Manager App */;
+			targetProxy = 463EBFB624EA97E600FE79CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		463EBFA824EA97E300FE79CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463EBFA924EA97E300FE79CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		463EBFAD24EA97E600FE79CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463EBFAE24EA97E600FE79CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		463EBFBC24EA97E600FE79CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		463EBFBD24EA97E600FE79CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		463EBFBF24EA97E600FE79CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FP28BF586;
+				INFOPLIST_FILE = "Car Sevice Manager App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foytingo.Car-Sevice-Manager-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		463EBFC024EA97E600FE79CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FP28BF586;
+				INFOPLIST_FILE = "Car Sevice Manager App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foytingo.Car-Sevice-Manager-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		463EBFC224EA97E600FE79CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FP28BF586;
+				INFOPLIST_FILE = "Car Sevice Manager AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foytingo.Car-Sevice-Manager-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Car Sevice Manager App.app/Car Sevice Manager App";
+			};
+			name = Debug;
+		};
+		463EBFC324EA97E600FE79CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FP28BF586;
+				INFOPLIST_FILE = "Car Sevice Manager AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.foytingo.Car-Sevice-Manager-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Car Sevice Manager App.app/Car Sevice Manager App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463EBF9A24EA97E300FE79CC /* Build configuration list for PBXProject "Car Sevice Manager App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463EBFBC24EA97E600FE79CC /* Debug */,
+				463EBFBD24EA97E600FE79CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463EBFBE24EA97E600FE79CC /* Build configuration list for PBXNativeTarget "Car Sevice Manager App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463EBFBF24EA97E600FE79CC /* Debug */,
+				463EBFC024EA97E600FE79CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463EBFC124EA97E600FE79CC /* Build configuration list for PBXNativeTarget "Car Sevice Manager AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463EBFC224EA97E600FE79CC /* Debug */,
+				463EBFC324EA97E600FE79CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 463EBF9724EA97E300FE79CC /* Project object */;
+}
