@@ -3,17 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		463EBFA324EA97E300FE79CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFA224EA97E300FE79CC /* AppDelegate.swift */; };
 		463EBFA524EA97E300FE79CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFA424EA97E300FE79CC /* SceneDelegate.swift */; };
-		463EBFA724EA97E300FE79CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFA624EA97E300FE79CC /* ViewController.swift */; };
-		463EBFAA24EA97E300FE79CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463EBFA824EA97E300FE79CC /* Main.storyboard */; };
 		463EBFAC24EA97E600FE79CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463EBFAB24EA97E600FE79CC /* Assets.xcassets */; };
 		463EBFAF24EA97E600FE79CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463EBFAD24EA97E600FE79CC /* LaunchScreen.storyboard */; };
 		463EBFBA24EA97E600FE79CC /* Car_Sevice_Manager_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFB924EA97E600FE79CC /* Car_Sevice_Manager_AppTests.swift */; };
+		463EBFC524EA983D00FE79CC /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFC424EA983D00FE79CC /* UsersVC.swift */; };
+		463EBFC724EA984900FE79CC /* CarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFC624EA984900FE79CC /* CarsVC.swift */; };
+		463EBFC924EA985700FE79CC /* AppointmentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFC824EA985700FE79CC /* AppointmentsVC.swift */; };
+		463EBFCB24EA9CCB00FE79CC /* CSATabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFCA24EA9CCB00FE79CC /* CSATabBarController.swift */; };
+		463EBFCD24EA9DC800FE79CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463EBFCC24EA9DC800FE79CC /* Constants.swift */; };
+		46AE492E24EBC1E2003E9EE2 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE492D24EBC1E2003E9EE2 /* UserCell.swift */; };
+		46AE493024EBC1EE003E9EE2 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE492F24EBC1EE003E9EE2 /* CarCell.swift */; };
+		46AE493224EBC1FC003E9EE2 /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE493124EBC1FC003E9EE2 /* AppointmentCell.swift */; };
+		46AE493524EBC2CC003E9EE2 /* CSATitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE493424EBC2CC003E9EE2 /* CSATitleLabel.swift */; };
+		46AE493724EBC2FB003E9EE2 /* CSASecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE493624EBC2FB003E9EE2 /* CSASecondaryLabel.swift */; };
+		46AE493924EBC5DE003E9EE2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE493824EBC5DE003E9EE2 /* User.swift */; };
+		46AE493B24EBC62A003E9EE2 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE493A24EBC62A003E9EE2 /* FirestoreManager.swift */; };
+		46AE493D24EBC84F003E9EE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46AE493C24EBC84F003E9EE2 /* GoogleService-Info.plist */; };
+		46AE493F24EBCA08003E9EE2 /* UIViewControler+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE493E24EBCA08003E9EE2 /* UIViewControler+Ext.swift */; };
+		4DBA40E1C3091579E74773B5 /* Pods_Car_Sevice_Manager_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0B3F8EB3D763E4275177DC /* Pods_Car_Sevice_Manager_AppTests.framework */; };
+		9CBB5AFCE3F92FEC87314C49 /* Pods_Car_Sevice_Manager_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DE7AE90ECD3CCFA1D8B516 /* Pods_Car_Sevice_Manager_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +41,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09F65ECB981BB942BBA40E35 /* Pods-Car Sevice Manager AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Sevice Manager AppTests.release.xcconfig"; path = "Target Support Files/Pods-Car Sevice Manager AppTests/Pods-Car Sevice Manager AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		11B85BF8881297C3DAC953B6 /* Pods-Car Sevice Manager App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Sevice Manager App.debug.xcconfig"; path = "Target Support Files/Pods-Car Sevice Manager App/Pods-Car Sevice Manager App.debug.xcconfig"; sourceTree = "<group>"; };
+		39DE7AE90ECD3CCFA1D8B516 /* Pods_Car_Sevice_Manager_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Car_Sevice_Manager_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		463EBF9F24EA97E300FE79CC /* Car Sevice Manager App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Sevice Manager App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		463EBFA224EA97E300FE79CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		463EBFA424EA97E300FE79CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		463EBFA624EA97E300FE79CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		463EBFA924EA97E300FE79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		463EBFAB24EA97E600FE79CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		463EBFAE24EA97E600FE79CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		463EBFB024EA97E600FE79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		463EBFB524EA97E600FE79CC /* Car Sevice Manager AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Car Sevice Manager AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		463EBFB924EA97E600FE79CC /* Car_Sevice_Manager_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car_Sevice_Manager_AppTests.swift; sourceTree = "<group>"; };
 		463EBFBB24EA97E600FE79CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463EBFC424EA983D00FE79CC /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		463EBFC624EA984900FE79CC /* CarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsVC.swift; sourceTree = "<group>"; };
+		463EBFC824EA985700FE79CC /* AppointmentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsVC.swift; sourceTree = "<group>"; };
+		463EBFCA24EA9CCB00FE79CC /* CSATabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSATabBarController.swift; sourceTree = "<group>"; };
+		463EBFCC24EA9DC800FE79CC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		46AE492D24EBC1E2003E9EE2 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		46AE492F24EBC1EE003E9EE2 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		46AE493124EBC1FC003E9EE2 /* AppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010AppointmentCell.swift"; sourceTree = "<group>"; };
+		46AE493424EBC2CC003E9EE2 /* CSATitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSATitleLabel.swift; sourceTree = "<group>"; };
+		46AE493624EBC2FB003E9EE2 /* CSASecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSASecondaryLabel.swift; sourceTree = "<group>"; };
+		46AE493824EBC5DE003E9EE2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		46AE493A24EBC62A003E9EE2 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		46AE493C24EBC84F003E9EE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		46AE493E24EBCA08003E9EE2 /* UIViewControler+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControler+Ext.swift"; sourceTree = "<group>"; };
+		491EED5513B8CEA8232D78A8 /* Pods-Car Sevice Manager AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Sevice Manager AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Car Sevice Manager AppTests/Pods-Car Sevice Manager AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0B3F8EB3D763E4275177DC /* Pods_Car_Sevice_Manager_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Car_Sevice_Manager_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96868043BFCA2D1AEB54082 /* Pods-Car Sevice Manager App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Sevice Manager App.release.xcconfig"; path = "Target Support Files/Pods-Car Sevice Manager App/Pods-Car Sevice Manager App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBB5AFCE3F92FEC87314C49 /* Pods_Car_Sevice_Manager_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +85,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBA40E1C3091579E74773B5 /* Pods_Car_Sevice_Manager_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		463AE4F524EAA3F4008EE99D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				463EBFC424EA983D00FE79CC /* UsersVC.swift */,
+				463EBFC624EA984900FE79CC /* CarsVC.swift */,
+				463EBFC824EA985700FE79CC /* AppointmentsVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		463AE4F624EAA3FB008EE99D /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				463EBFCA24EA9CCB00FE79CC /* CSATabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		463AE4F724EAA40F008EE99D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				463EBFCC24EA9DC800FE79CC /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		463AE4F824EAA415008EE99D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				463EBFA224EA97E300FE79CC /* AppDelegate.swift */,
+				463EBFA424EA97E300FE79CC /* SceneDelegate.swift */,
+				463EBFAB24EA97E600FE79CC /* Assets.xcassets */,
+				463EBFAD24EA97E600FE79CC /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		463EBF9624EA97E300FE79CC = {
 			isa = PBXGroup;
 			children = (
 				463EBFA124EA97E300FE79CC /* Car Sevice Manager App */,
 				463EBFB824EA97E600FE79CC /* Car Sevice Manager AppTests */,
 				463EBFA024EA97E300FE79CC /* Products */,
+				5B62BEBC204D4F48031FBCA1 /* Pods */,
+				86A48C0F74652B555BD032BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +152,18 @@
 		463EBFA124EA97E300FE79CC /* Car Sevice Manager App */ = {
 			isa = PBXGroup;
 			children = (
-				463EBFA224EA97E300FE79CC /* AppDelegate.swift */,
-				463EBFA424EA97E300FE79CC /* SceneDelegate.swift */,
-				463EBFA624EA97E300FE79CC /* ViewController.swift */,
-				463EBFA824EA97E300FE79CC /* Main.storyboard */,
-				463EBFAB24EA97E600FE79CC /* Assets.xcassets */,
-				463EBFAD24EA97E600FE79CC /* LaunchScreen.storyboard */,
+				463AE4F824EAA415008EE99D /* Supporting Files */,
+				463AE4F524EAA3F4008EE99D /* Screens */,
+				463AE4F624EAA3FB008EE99D /* TabBarController */,
+				463AE4F724EAA40F008EE99D /* Helpers */,
 				463EBFB024EA97E600FE79CC /* Info.plist */,
+				46AE493C24EBC84F003E9EE2 /* GoogleService-Info.plist */,
+				46AE493324EBC1FF003E9EE2 /* Cells */,
+				46AE493424EBC2CC003E9EE2 /* CSATitleLabel.swift */,
+				46AE493624EBC2FB003E9EE2 /* CSASecondaryLabel.swift */,
+				46AE493824EBC5DE003E9EE2 /* User.swift */,
+				46AE493A24EBC62A003E9EE2 /* FirestoreManager.swift */,
+				46AE493E24EBCA08003E9EE2 /* UIViewControler+Ext.swift */,
 			);
 			path = "Car Sevice Manager App";
 			sourceTree = "<group>";
@@ -99,6 +177,36 @@
 			path = "Car Sevice Manager AppTests";
 			sourceTree = "<group>";
 		};
+		46AE493324EBC1FF003E9EE2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				46AE492D24EBC1E2003E9EE2 /* UserCell.swift */,
+				46AE492F24EBC1EE003E9EE2 /* CarCell.swift */,
+				46AE493124EBC1FC003E9EE2 /* AppointmentCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5B62BEBC204D4F48031FBCA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11B85BF8881297C3DAC953B6 /* Pods-Car Sevice Manager App.debug.xcconfig */,
+				E96868043BFCA2D1AEB54082 /* Pods-Car Sevice Manager App.release.xcconfig */,
+				491EED5513B8CEA8232D78A8 /* Pods-Car Sevice Manager AppTests.debug.xcconfig */,
+				09F65ECB981BB942BBA40E35 /* Pods-Car Sevice Manager AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86A48C0F74652B555BD032BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39DE7AE90ECD3CCFA1D8B516 /* Pods_Car_Sevice_Manager_App.framework */,
+				AA0B3F8EB3D763E4275177DC /* Pods_Car_Sevice_Manager_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 463EBFBE24EA97E600FE79CC /* Build configuration list for PBXNativeTarget "Car Sevice Manager App" */;
 			buildPhases = (
+				A7088D500BAA4F7BF2374ED7 /* [CP] Check Pods Manifest.lock */,
 				463EBF9B24EA97E300FE79CC /* Sources */,
 				463EBF9C24EA97E300FE79CC /* Frameworks */,
 				463EBF9D24EA97E300FE79CC /* Resources */,
+				B8F7247B078CF6E990C96DBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 463EBFC124EA97E600FE79CC /* Build configuration list for PBXNativeTarget "Car Sevice Manager AppTests" */;
 			buildPhases = (
+				11EDBCB3765C2A2921A2C16C /* [CP] Check Pods Manifest.lock */,
 				463EBFB124EA97E600FE79CC /* Sources */,
 				463EBFB224EA97E600FE79CC /* Frameworks */,
 				463EBFB324EA97E600FE79CC /* Resources */,
@@ -182,7 +293,7 @@
 			files = (
 				463EBFAF24EA97E600FE79CC /* LaunchScreen.storyboard in Resources */,
 				463EBFAC24EA97E600FE79CC /* Assets.xcassets in Resources */,
-				463EBFAA24EA97E300FE79CC /* Main.storyboard in Resources */,
+				46AE493D24EBC84F003E9EE2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +306,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11EDBCB3765C2A2921A2C16C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Car Sevice Manager AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7088D500BAA4F7BF2374ED7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Car Sevice Manager App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F7247B078CF6E990C96DBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Car Sevice Manager App/Pods-Car Sevice Manager App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Car Sevice Manager App/Pods-Car Sevice Manager App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Car Sevice Manager App/Pods-Car Sevice Manager App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		463EBF9B24EA97E300FE79CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				463EBFA724EA97E300FE79CC /* ViewController.swift in Sources */,
+				46AE493F24EBCA08003E9EE2 /* UIViewControler+Ext.swift in Sources */,
+				46AE493924EBC5DE003E9EE2 /* User.swift in Sources */,
+				46AE493B24EBC62A003E9EE2 /* FirestoreManager.swift in Sources */,
+				46AE492E24EBC1E2003E9EE2 /* UserCell.swift in Sources */,
+				46AE493724EBC2FB003E9EE2 /* CSASecondaryLabel.swift in Sources */,
 				463EBFA324EA97E300FE79CC /* AppDelegate.swift in Sources */,
+				46AE493524EBC2CC003E9EE2 /* CSATitleLabel.swift in Sources */,
+				46AE493224EBC1FC003E9EE2 /* AppointmentCell.swift in Sources */,
+				463EBFC924EA985700FE79CC /* AppointmentsVC.swift in Sources */,
+				46AE493024EBC1EE003E9EE2 /* CarCell.swift in Sources */,
 				463EBFA524EA97E300FE79CC /* SceneDelegate.swift in Sources */,
+				463EBFCB24EA9CCB00FE79CC /* CSATabBarController.swift in Sources */,
+				463EBFC524EA983D00FE79CC /* UsersVC.swift in Sources */,
+				463EBFC724EA984900FE79CC /* CarsVC.swift in Sources */,
+				463EBFCD24EA9DC800FE79CC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +412,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		463EBFA824EA97E300FE79CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				463EBFA924EA97E300FE79CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		463EBFAD24EA97E600FE79CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,11 +539,13 @@
 		};
 		463EBFBF24EA97E600FE79CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B85BF8881297C3DAC953B6 /* Pods-Car Sevice Manager App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3FP28BF586;
 				INFOPLIST_FILE = "Car Sevice Manager App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,17 +553,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.foytingo.Car-Sevice-Manager-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		463EBFC024EA97E600FE79CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96868043BFCA2D1AEB54082 /* Pods-Car Sevice Manager App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3FP28BF586;
 				INFOPLIST_FILE = "Car Sevice Manager App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,12 +573,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.foytingo.Car-Sevice-Manager-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		463EBFC224EA97E600FE79CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491EED5513B8CEA8232D78A8 /* Pods-Car Sevice Manager AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +602,7 @@
 		};
 		463EBFC324EA97E600FE79CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F65ECB981BB942BBA40E35 /* Pods-Car Sevice Manager AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
