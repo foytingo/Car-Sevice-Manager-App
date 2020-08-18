@@ -169,7 +169,6 @@
 				463AE4F824EAA415008EE99D /* Supporting Files */,
 				463EBFB024EA97E600FE79CC /* Info.plist */,
 				46AE493C24EBC84F003E9EE2 /* GoogleService-Info.plist */,
-				46AE494D24EBF368003E9EE2 /* CSALoadingVC.swift */,
 			);
 			path = "Car Sevice Manager App";
 			sourceTree = "<group>";
@@ -232,11 +231,20 @@
 		46AE494A24EBF292003E9EE2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				46AE494F24EBF420003E9EE2 /* ViewControllers */,
 				463AE4F624EAA3FB008EE99D /* TabBarController */,
 				46AE493324EBC1FF003E9EE2 /* Cells */,
 				46AE494724EBF268003E9EE2 /* Labels */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		46AE494F24EBF420003E9EE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				46AE494D24EBF368003E9EE2 /* CSALoadingVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		5B62BEBC204D4F48031FBCA1 /* Pods */ = {

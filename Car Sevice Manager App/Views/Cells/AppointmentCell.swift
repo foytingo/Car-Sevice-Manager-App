@@ -66,7 +66,7 @@ class AppointmentCell: UITableViewCell {
         stackViewHor.translatesAutoresizingMaskIntoConstraints = false
         stackViewHor.axis = .horizontal
         stackViewHor.distribution = .fillProportionally
-        stackViewHor.spacing = 70
+        stackViewHor.spacing = 30
         
         stackViewHor.alignment = .center
         

@@ -73,6 +73,7 @@ class UserCell: UITableViewCell {
         
         NSLayoutConstraint.activate([
             stackViewHor.centerYAnchor.constraint(equalTo: centerYAnchor),
+            stackViewHor.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
             stackViewHor.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20)
         ])
     }
