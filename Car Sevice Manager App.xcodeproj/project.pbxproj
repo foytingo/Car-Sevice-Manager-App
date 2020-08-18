@@ -26,6 +26,8 @@
 		46AE493B24EBC62A003E9EE2 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE493A24EBC62A003E9EE2 /* FirestoreManager.swift */; };
 		46AE493D24EBC84F003E9EE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46AE493C24EBC84F003E9EE2 /* GoogleService-Info.plist */; };
 		46AE493F24EBCA08003E9EE2 /* UIViewControler+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE493E24EBCA08003E9EE2 /* UIViewControler+Ext.swift */; };
+		46AE494124EBD7F3003E9EE2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE494024EBD7F3003E9EE2 /* Car.swift */; };
+		46AE494424EBDC93003E9EE2 /* CSAFootnoteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE494324EBDC93003E9EE2 /* CSAFootnoteLabel.swift */; };
 		4DBA40E1C3091579E74773B5 /* Pods_Car_Sevice_Manager_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0B3F8EB3D763E4275177DC /* Pods_Car_Sevice_Manager_AppTests.framework */; };
 		9CBB5AFCE3F92FEC87314C49 /* Pods_Car_Sevice_Manager_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DE7AE90ECD3CCFA1D8B516 /* Pods_Car_Sevice_Manager_App.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +69,8 @@
 		46AE493A24EBC62A003E9EE2 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 		46AE493C24EBC84F003E9EE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		46AE493E24EBCA08003E9EE2 /* UIViewControler+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControler+Ext.swift"; sourceTree = "<group>"; };
+		46AE494024EBD7F3003E9EE2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		46AE494324EBDC93003E9EE2 /* CSAFootnoteLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSAFootnoteLabel.swift; sourceTree = "<group>"; };
 		491EED5513B8CEA8232D78A8 /* Pods-Car Sevice Manager AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Sevice Manager AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Car Sevice Manager AppTests/Pods-Car Sevice Manager AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA0B3F8EB3D763E4275177DC /* Pods_Car_Sevice_Manager_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Car_Sevice_Manager_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96868043BFCA2D1AEB54082 /* Pods-Car Sevice Manager App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Sevice Manager App.release.xcconfig"; path = "Target Support Files/Pods-Car Sevice Manager App/Pods-Car Sevice Manager App.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,7 +165,8 @@
 				46AE493324EBC1FF003E9EE2 /* Cells */,
 				46AE493424EBC2CC003E9EE2 /* CSATitleLabel.swift */,
 				46AE493624EBC2FB003E9EE2 /* CSASecondaryLabel.swift */,
-				46AE493824EBC5DE003E9EE2 /* User.swift */,
+				46AE494324EBDC93003E9EE2 /* CSAFootnoteLabel.swift */,
+				46AE494224EBD847003E9EE2 /* Model */,
 				46AE493A24EBC62A003E9EE2 /* FirestoreManager.swift */,
 				46AE493E24EBCA08003E9EE2 /* UIViewControler+Ext.swift */,
 			);
@@ -185,6 +190,15 @@
 				46AE493124EBC1FC003E9EE2 /* AppointmentCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		46AE494224EBD847003E9EE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46AE493824EBC5DE003E9EE2 /* User.swift */,
+				46AE494024EBD7F3003E9EE2 /* Car.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5B62BEBC204D4F48031FBCA1 /* Pods */ = {
@@ -379,12 +393,14 @@
 				46AE493924EBC5DE003E9EE2 /* User.swift in Sources */,
 				46AE493B24EBC62A003E9EE2 /* FirestoreManager.swift in Sources */,
 				46AE492E24EBC1E2003E9EE2 /* UserCell.swift in Sources */,
+				46AE494424EBDC93003E9EE2 /* CSAFootnoteLabel.swift in Sources */,
 				46AE493724EBC2FB003E9EE2 /* CSASecondaryLabel.swift in Sources */,
 				463EBFA324EA97E300FE79CC /* AppDelegate.swift in Sources */,
 				46AE493524EBC2CC003E9EE2 /* CSATitleLabel.swift in Sources */,
 				46AE493224EBC1FC003E9EE2 /* AppointmentCell.swift in Sources */,
 				463EBFC924EA985700FE79CC /* AppointmentsVC.swift in Sources */,
 				46AE493024EBC1EE003E9EE2 /* CarCell.swift in Sources */,
+				46AE494124EBD7F3003E9EE2 /* Car.swift in Sources */,
 				463EBFA524EA97E300FE79CC /* SceneDelegate.swift in Sources */,
 				463EBFCB24EA9CCB00FE79CC /* CSATabBarController.swift in Sources */,
 				463EBFC524EA983D00FE79CC /* UsersVC.swift in Sources */,

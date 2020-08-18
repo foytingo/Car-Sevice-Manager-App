@@ -25,7 +25,24 @@ struct FirestoreManager {
                 }
                 completed(.success(users))
             }
-            
         }
     }
+    
+    
+    static func fetchCars(completed: @escaping(Result<[Car], Error>) -> Void) {
+        var cars: [Car] = []
+        
+        Firestore.firestore().collection("cars").getDocuments { (snapshot, error) in
+            if let error = error {
+                completed(.failure(error))
+            } else {
+                for document in snapshot!.documents {
+                    let car = Car(uid: UUID(uuidString: document.documentID)!, dictionary: document.data())
+                    cars.append(car)
+                }
+                completed(.success(cars))
+            }
+        }
+    }
+    
 }

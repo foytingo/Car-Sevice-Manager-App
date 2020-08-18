@@ -28,7 +28,7 @@ struct User {
         self.name = dictionary["name"] as? String ?? ""
         self.email = dictionary["email"] as? String ?? ""
         self.cars = dictionary["cars"] as? [String] ?? []
-        self.appointments = dictionary["appointments"] as? [String] ?? []
+        self.appointments = dictionary["appointment"] as? [String] ?? []
     }
     
     

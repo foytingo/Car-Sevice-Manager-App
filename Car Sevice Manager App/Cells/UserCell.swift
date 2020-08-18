@@ -11,6 +11,7 @@ import UIKit
 class UserCell: UITableViewCell {
     
     let nameLabel = CSATitleLabel()
+    let uidLabel = CSAFootnoteLabel()
     let emailLabel = CSASecondaryLabel()
     let carCountLabel = CSASecondaryLabel()
     let appointmentCountLabel = CSASecondaryLabel()
@@ -42,6 +43,8 @@ class UserCell: UITableViewCell {
     private func configureVerticalStackViews() {
         stackViewVer1.addArrangedSubview(nameLabel)
         stackViewVer1.addArrangedSubview(emailLabel)
+        stackViewVer1.addArrangedSubview(uidLabel)
+        
         stackViewVer2.addArrangedSubview(carCountLabel)
         stackViewVer2.addArrangedSubview(appointmentCountLabel)
     
@@ -66,7 +69,7 @@ class UserCell: UITableViewCell {
         stackViewHor.distribution = .fillEqually
         stackViewHor.spacing = 80
     
-        stackViewHor.alignment = .bottom
+        stackViewHor.alignment = .center
         
         NSLayoutConstraint.activate([
             stackViewHor.centerYAnchor.constraint(equalTo: centerYAnchor),
@@ -78,6 +81,7 @@ class UserCell: UITableViewCell {
     func set(user: User) {
         nameLabel.text = user.name
         emailLabel.text = user.email
+        uidLabel.text = "OwnerID: \(user.uid!)"
         carCountLabel.text = "Cars: \(user.cars.count)"
         appointmentCountLabel.text = "Appointments: \(user.appointments.count)"
         
