@@ -45,4 +45,23 @@ struct FirestoreManager {
         }
     }
     
+    
+    static func fetchAppointments(completed: @escaping(Result<[Appointment], Error>) -> Void) {
+        var appointments: [Appointment] = []
+        
+        Firestore.firestore().collection("appointments").getDocuments { (snapshot, error) in
+            if let error = error {
+                completed(.failure(error))
+            } else {
+                for document in snapshot!.documents {
+                    let appointment = Appointment(uid: UUID(uuidString: document.documentID)!, dictionary: document.data())
+                    appointments.append(appointment)
+                }
+                completed(.success(appointments))
+            }
+        }
+        
+    }
+    
+    
 }

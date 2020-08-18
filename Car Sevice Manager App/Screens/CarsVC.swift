@@ -49,6 +49,7 @@ class CarsVC: UIViewController {
         tableView.register(CarCell.self, forCellReuseIdentifier: CarCell.reuseID)
     }
     
+    
     private func fetchCars() {
         FirestoreManager.fetchCars { [weak self] result in
             guard let self = self else { return }
@@ -62,7 +63,7 @@ class CarsVC: UIViewController {
             }
         }
     }
-
+    
 }
 
 extension CarsVC: UITableViewDelegate, UITableViewDataSource {
