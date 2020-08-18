@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CarsVC: UIViewController {
+class CarsVC: CSALoadingVC {
 
     let tableView = UITableView()
     
@@ -51,8 +51,10 @@ class CarsVC: UIViewController {
     
     
     private func fetchCars() {
+        showLoadingView()
         FirestoreManager.fetchCars { [weak self] result in
             guard let self = self else { return }
+            self.dismissLoadingView()
             switch result {
             case .success(let cars):
                 self.cars = cars

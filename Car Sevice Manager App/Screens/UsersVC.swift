@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UsersVC: UIViewController {
+class UsersVC: CSALoadingVC {
 
     let tableView = UITableView()
     
@@ -50,8 +50,10 @@ class UsersVC: UIViewController {
     
     
     private func fetchUsers() {
+        showLoadingView()
         FirestoreManager.fetchUsers { [weak self] result in
             guard let self = self else { return }
+            self.dismissLoadingView()
             switch result {
             case .success(let users):
                 self.users = users

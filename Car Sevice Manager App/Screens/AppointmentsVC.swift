@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AppointmentsVC: UIViewController {
+class AppointmentsVC: CSALoadingVC {
     
     let tableView = UITableView()
     
@@ -52,8 +52,10 @@ class AppointmentsVC: UIViewController {
     
     
     private func fetchAppointments() {
+        showLoadingView()
         FirestoreManager.fetchAppointments { [weak self] result in
             guard let self = self else { return }
+            self.dismissLoadingView()
             switch result {
             case .success(let appointments):
                 self.appointments = appointments
